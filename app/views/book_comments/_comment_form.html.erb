@@ -1,0 +1,7 @@
+    
+ <div class="form-label mt-3">
+    <%= form_with model: [book, book_comment], local: false do |f| %>
+    <%= f.text_area :comment, class: "form-control form-control-lg" %>
+    <%= f.submit "送信" %>
+    <% end %>
+ </div>
